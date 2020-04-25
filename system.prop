@@ -8,6 +8,9 @@ persist.vendor.audio.fluence.speaker=false
 persist.camera.cpp.duplication=false
 persist.camera.hal.debug.mask=0
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+
 # Display
 ro.sf.lcd_density=320
 

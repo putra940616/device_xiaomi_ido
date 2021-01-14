@@ -20,6 +20,10 @@ ro.hardware.fingerprint=msm8916
 # Fusion mag field filter
 ro.fusion.magfield.max=250
 
+# GBoard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.kb_pad_port_b=1
+
 # Netmgrd
 ro.use_data_netmgrd=true
 persist.data.netmgrd.qos.enable=true

@@ -80,6 +80,8 @@ static void set_ramconfig() {
         property_override("dalvik.vm.heapminfree", "2m");
         property_override("dalvik.vm.heapmaxfree", "8m");
         property_override("ro.apex.updatable", "false");
+	// Reduce memory footprint
+	property_override("ro.config.avoid_gfx_accel", "true");
     }
 }
 
@@ -88,3 +90,4 @@ static void set_ramconfig() {
 void vendor_load_properties() {
     set_ramconfig();
 }
+

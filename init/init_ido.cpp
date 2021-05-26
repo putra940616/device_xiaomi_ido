@@ -79,6 +79,7 @@ static void set_ramconfig() {
         property_override("dalvik.vm.heaptargetutilization", "0.75");
         property_override("dalvik.vm.heapminfree", "2m");
         property_override("dalvik.vm.heapmaxfree", "8m");
+        property_override("ro.apex.updatable", "false");
     }
 }
 

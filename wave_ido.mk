@@ -17,6 +17,7 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
 # Inherit some common WaveOS stuff.
 $(call inherit-product, vendor/wave/config/common_full_phone.mk)
+VANILLA_BUILD := true
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)

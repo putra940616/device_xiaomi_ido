@@ -18,6 +18,7 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 # Inherit some common Wave stuff.
 $(call inherit-product, vendor/wave/configs/common.mk)
 VANILLA_BUILD := true
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)

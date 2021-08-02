@@ -15,8 +15,8 @@
 
 $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
-# Inherit some common Mokee stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common WaveOS stuff.
+$(call inherit-product, vendor/wave/config/common_full_phone.mk)
 
 # Shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
@@ -26,7 +26,7 @@ TARGET_BOARD_PLATFORM_VARIANT := msm8939
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ido
 
-PRODUCT_NAME := lineage_ido
+PRODUCT_NAME := wave_ido
 BOARD_VENDOR := xiaomi
 PRODUCT_DEVICE := ido
 

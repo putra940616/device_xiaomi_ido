@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_ido.mk
-    
+    $(LOCAL_DIR)/wave_ido.mk
+
 COMMON_LUNCH_CHOICES := \
-    lineage_ido-eng \
-    lineage_ido-userdebug \
-    lineage_ido-user
+    wave_ido-eng \
+    wave_ido-userdebug \
+    wave_ido-user

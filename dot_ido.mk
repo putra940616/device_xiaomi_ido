@@ -17,7 +17,7 @@ $(call inherit-product, device/xiaomi/ido/full_ido.mk)
 
 # Inherit some common dotOS stuff.
 $(call inherit-product, vendor/dot/config/common.mk)
-USE_PIXEL_CHARGING := true
+TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Shipping API level
